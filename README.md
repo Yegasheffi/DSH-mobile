@@ -10,21 +10,13 @@
 >
 > 联调状态：macOS + Android 15 模拟器 + 真实 DSH 已完成端到端验证（任务列表、详情、发指令、停止、新建、深链、后台服务）。Windows/Linux 共用同一份 Node 桥接代码，只替换启动/自启脚本，没有平台专有 API。
 
-![DSH Mobile](docs/preview.png)
-
 ---
 
 ## 教程视频（横屏）
 
 2 分 42 秒 · 1920×1080 · 30fps · 中文配音 + 字幕。
 
-[![教程视频预览](docs/video-contact-sheet.png)](dist/DSH-Mobile-教程-横屏.mp4)
-
-- [DSH-Mobile-教程-横屏-音乐版.mp4](dist/DSH-Mobile-教程-横屏-音乐版.mp4) — 无旁白，使用指定音乐
-- [DSH-Mobile-教程-横屏.mp4](dist/DSH-Mobile-教程-横屏.mp4) — 原配音版
-- [字幕 SRT](dist/DSH-Mobile-教程-横屏.srt)
-- [旁白文案](dist/DSH-Mobile-教程-横屏-文案.md)
-- 剪映草稿：`video/jianying_draft/DSH Mobile 教程视频 横屏`
+https://www.bilibili.com/video/BV1egxF6dEhp
 
 视频里的配对密钥已经打码；演示任务来自真实 DSH 会话。
 
