@@ -10,8 +10,6 @@
 >
 > **Public 版**：不包含任何配对密钥、`bridge/config.json`、`android/keystore.jks`、个人截图或视频。首次运行 Bridge 会自动生成随机密钥；APK 首次打开需要手动填写桥接地址和密钥。
 
-![DSH Mobile 工作方式](docs/architecture.png)
-
 ---
 
 ## 1. 功能
