@@ -484,15 +484,3 @@ A: 业务代码完全跨平台，差异只在启动脚本；一份实现避免�
 A: 编辑 `android/src/com/dsh/mobile/Config.java`，然后重新构建。公开分发前请清空 `DEFAULT_KEY`。
 
 ---
-
-## 15. 分发建议
-
-如果你要把这个项目发给别人使用：
-
-1. 删除 `bridge/config.json`、`bridge/connection.txt`、`bridge/logs/`；
-2. 删除 `android/keystore.jks`，让对方自己生成；
-3. 清空 `Config.java` 的 `DEFAULT_SERVER` / `DEFAULT_KEY`；
-4. 不要打包自己的教程视频、任务截图或会话数据；
-5. 在 README 里保留“需要用户自己生成配对密钥”的说明。
-
-这样每个人拿到的都是干净、独立、跨平台的版本。
